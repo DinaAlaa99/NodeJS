@@ -9,10 +9,13 @@ var calcAge = function (name,date) {
     { 
         var age = today.getFullYear() - birthDate.getFullYear()
         var m = today.getMonth() - birthDate.getMonth();
+       
         if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-              age--;
+            age--;
+            throw new Error("Invalid date");
         }
-        return "Hello " + name + " your age is " + age 
+
+        return `Hello ${name} your age is ${age}` 
     }   
 } 
 module.exports = calcAge
