@@ -1,0 +1,17 @@
+{
+    "name": "day2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "dina",
+    "license": "ISC",
+    "dependencies": {
+        "moment": "^2.29.2"
+    },
+    "devDependencies": {
+        "flower": "^0.6.0"
+    }
+}

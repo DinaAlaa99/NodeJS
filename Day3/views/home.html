@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Home Page</h1>
+      </div>
+
+      <form action="/login" method="post">
+        <div class="name">
+          <label for="">Name:</label>
+          <input id="name" type="text" />
+        </div>
+        <br />
+        <div class="email">
+          <label for="">Email:</label>
+          <input id="email" type="email" />
+        </div>
+        <br />
+        <div class="password">
+          <label for="">Password:</label>
+          <input id="password" type="password" />
+        </div>
+        <br />
+        <button type="submit">login</button>
+      </form>
+      <br>
+      <form action="/signup" method="post">
+        <button class="submit">signup</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
